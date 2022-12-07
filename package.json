@@ -2,6 +2,7 @@
   "name": "tf-department-cards",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://madkorney.github.io/tf-department-cards/",
   "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

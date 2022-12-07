@@ -1,2 +1,2 @@
 export { TabHeader } from './TabHeader';
-export { DepartmentCardsList } from './DepartmentCardsList';
+export { DepartmentDetailsCard } from './DepartmentDetailsCard';

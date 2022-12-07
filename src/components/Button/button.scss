@@ -1,0 +1,40 @@
+@import '../../global-styles/variables';
+
+.btn-general {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6.4px 24px;
+  gap: 10px;
+
+  width: 232px;
+  height: 56px;
+
+  border-radius: 6px;
+  border: none;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  transition: 100ms;
+
+  &:hover {
+    cursor: pointer;
+    border: 2px solid $COLOR-GENERAL-SECONDARY;
+  }
+}
+
+.btn-general.confirm {
+  background-color: $COLOR-GENERAL-BRAND;
+  color: $COLOR-GENERAL-CONTRAST-LIGHT;
+}
+
+.btn-general.cancel {
+  background-color: $COLOR-SECONDARY-BRAND;
+  color: $COLOR-GENERAL-BRAND;
+}

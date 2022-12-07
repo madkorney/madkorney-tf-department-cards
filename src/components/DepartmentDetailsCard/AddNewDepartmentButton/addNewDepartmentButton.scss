@@ -1,0 +1,25 @@
+@import '../../../global-styles/variables';
+
+.btn-add-new-department {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $COLOR-SECONDARY-BRAND;
+  width: $DEPARTAMENT-CARD-WIDTH;
+  height: $DEPARTAMENT-CARD-HEIGHT;
+  box-shadow: 0px 12px 24px rgba(138, 138, 138, 0.15);
+  border-radius: 12px;
+  border: none;
+  transition: 200ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $COLOR-SECONDARY-BRAND-HOVER;
+  }
+}
+
+.btn-add-icon {
+
+}

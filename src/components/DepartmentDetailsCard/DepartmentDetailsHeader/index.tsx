@@ -1,1 +1,0 @@
-export { DepartmentDetailsHeader } from './departmentDetailsHeader';

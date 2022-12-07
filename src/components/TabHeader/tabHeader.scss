@@ -1,4 +1,11 @@
+@import '../../global-styles/variables';
 
 .tab-header {
-  border: 1px solid red;
+  // border: 1px solid red;
+  min-width: 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: flex-start;
+  margin-left: 11px;
 }
